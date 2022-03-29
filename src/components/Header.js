@@ -21,6 +21,11 @@ function Header() {
                     Home <i className="fa-solid fa-house-user"></i>
                   </Nav.Link>
                 </LinkContainer>
+                <LinkContainer to="/stream">
+                  <Nav.Link>
+                    Stream <i className="fa-solid fa-circle-play"></i>
+                  </Nav.Link>
+                </LinkContainer>
                 <LinkContainer to="/about">
                   <Nav.Link>
                     About <i className="fa-solid fa-circle-question"></i>

@@ -1,4 +1,5 @@
 import HomeScreen from './pages/HomeScreen';
+import Stream from './pages/Stream';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import Header from './components/Header';
@@ -14,6 +15,7 @@ function App() {
           <main>
             <Routes>
               <Route exact path="/" element={<HomeScreen />} />
+              <Route exact path="/stream" element={<Stream />} />
               <Route path="/about" element={<About />} />
             </Routes>
           </main>

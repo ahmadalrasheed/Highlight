@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import Main from '../components/Main';
+import React from 'react';
 import { Container } from 'react-bootstrap';
-import Welcoming from '../components/Welcoming';
+import Headline from '../components/Welcoming/Headline';
+import Description from '../components/Welcoming/Description';
 
 function HomeScreen() {
-  const [startStream, updateStartStream] = useState(false);
   return (
     <div>
-      <Container>
-        {startStream ? <Main /> : <Welcoming updateStartStream={updateStartStream} />}
+      <Container className="py-5">
+        <Headline />
+        <Description />
       </Container>
     </div>
   );

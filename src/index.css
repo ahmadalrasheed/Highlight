@@ -25,6 +25,35 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
+@media only screen and (max-width:410px){
+
+  .welcoming-heading {
+    font-size: 2rem;
+  }
+
+
+}
+
+@media only screen and (max-width:300px){
+
+  .welcoming-heading {
+    font-size: 1.3rem;
+  }
+
+
+}
+video{
+  width: 100%
+}
+video::-webkit-media-controls-current-time-display {
+  color: whitesmoke;
+}
+
+video::-webkit-media-controls-time-remaining-display {
+  color: whitesmoke;
+}
+
+
 
 
 
