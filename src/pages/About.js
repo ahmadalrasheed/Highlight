@@ -1,7 +1,7 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import AuthorInfo from "../components/AboutMe/AuthorInfo";
-import GithubCode from "../components/AboutMe/GithubCode";
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import AuthorInfo from '../components/AboutMe/AuthorInfo';
+import GithubCode from '../components/AboutMe/GithubCode';
 
 function About() {
   return (

@@ -1,18 +1,15 @@
-import React from 'react'
-import Header from '../components/Header'
-import Main from '../components/Main'
-import {Image ,Container} from 'react-bootstrap'
+import React from 'react';
+import Main from '../components/Main';
+import { Container } from 'react-bootstrap';
 
 function HomeScreen() {
   return (
     <div>
-        
-        
-        <Container>
-        <Main/>
-        </Container>
+      <Container>
+        <Main />
+      </Container>
     </div>
-  )
+  );
 }
 
-export default HomeScreen
+export default HomeScreen;
