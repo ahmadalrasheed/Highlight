@@ -1,11 +1,30 @@
-
-main{
+main {
   min-height: 85vh;
 }
-.aboutme-p-h{
+.aboutme-p-h {
   color: whitesmoke;
   opacity: 80%;
 }
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+
+
+
+.welcoming-heading {
+  margin-bottom: 0.5em;
+  font-family: 'Rubik', sans-serif;
+  font-size: 3rem;
+  color: #e4e5e6;
+
+  
+}
+
+.welcoming-heading {
+  position: relative;
+  background: linear-gradient(to right, #686968, #fce6e6, #f5fdfd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 
 
