@@ -1,12 +1,14 @@
 import React from "react";
-import AboutMe from '../components/AboutMe'
-import { Container } from 'react-bootstrap'
+import { Container } from "react-bootstrap";
+import AuthorInfo from "../components/AboutMe/AuthorInfo";
+import GithubCode from "../components/AboutMe/GithubCode";
 
 function About() {
   return (
     <div>
       <Container className="py-5">
-        <AboutMe />
+        <AuthorInfo />
+        <GithubCode />
       </Container>
     </div>
   );
