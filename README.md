@@ -21,9 +21,9 @@ Future Goal:
 
 Clone this repository to your local machine.
 
-Then type `poetry install` to install all of the dependencies needed.
+Then type `npm install` to install all of the dependencies needed.
 
-Load up the project using your favorite IDE.
+then run the development environment by typing `npm start`.
 
 
 # References
